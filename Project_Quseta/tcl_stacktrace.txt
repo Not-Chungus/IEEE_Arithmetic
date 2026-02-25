@@ -1,0 +1,19 @@
+Wed Feb 25 15:46:19 +0200 2026
+Trace back: can't use placer on top-level window ".dockbar.tbf1"; use wm command instead
+    while executing
+"place $itk_component($tb) -x $x -y $realy"
+    (object "::.dockbar" method "::mtiwidgets::Dockbar::redoPack" body line 62)
+    invoked from within
+"redoPack {Configure Event}"
+    ("eval" body line 1)
+    invoked from within
+"eval $args"
+    (object "::.dockbar" method "::mtiwidgets::Dockbar::_delayedEval" body line 3)
+    invoked from within
+"::.dockbar _delayedEval redoPack {Configure Event}"
+    (in namespace inscope "::mtiwidgets::Dockbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Dockbar ::.dockbar _delayedEval redoPack {Configure Event}"
+    ("after" script)
+  <2:F:/IEEE_Digital/Installation/questasim64_10.6c/win64/tk8.6/bgerror.tcl:106: ::tkerror {can't use placer on top-level window ".dockbar.tbf1"; use wm command instead}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't use placer on top-level window ".dockbar.tbf1"; use wm command instead}

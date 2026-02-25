@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 10 22:44:28 2026
+# Process ID: 35360
+# Current directory: F:/IEEE_Arithmetic/Vivado/Task2_64_Prefix/Task2_project/Task2_project.runs/impl_1
+# Command line: vivado.exe -log Brent_Kung_64bit_Adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Brent_Kung_64bit_Adder.tcl -notrace
+# Log file: F:/IEEE_Arithmetic/Vivado/Task2_64_Prefix/Task2_project/Task2_project.runs/impl_1/Brent_Kung_64bit_Adder.vdi
+# Journal file: F:/IEEE_Arithmetic/Vivado/Task2_64_Prefix/Task2_project/Task2_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Brent_Kung_64bit_Adder.tcl -notrace

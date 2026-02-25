@@ -1,0 +1,368 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/IEEE_Digital/Installation/questasim64_10.6c/examples
+T_opt
+!s110 1772053281
+VNKgPKGCnYXdmoES5k7Lj^3
+04 19 4 work tb_Leading_One_4bit fast 0
+=1-d85ed3a67a6e-699f6321-6b-7b6c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6c;65
+R0
+T_opt1
+!s110 1772055420
+VT@8H<1L1ZPYX;NWP0Vbia2
+04 20 4 work tb_Leading_One_16bit fast 0
+=1-d85ed3a67a6e-699f6b7c-117-78b4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1772056545
+V72fSbBa_Y6e7gYQ`THG;a1
+04 20 4 work tb_Leading_One_32bit fast 0
+=1-d85ed3a67a6e-699f6fe1-a0-1c6c
+R1
+R2
+n@_opt2
+R3
+vLeading_One_16bit
+Z4 !s110 1772056534
+!i10b 1
+!s100 AjBKgijE2Ljb9RNBf:XdY0
+IIglSSVT3R1Gd;5bnoGZE]1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dF:/IEEE_Arithmetic/Project_Quseta
+Z7 w1772055823
+Z8 8F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v
+Z9 FF:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v
+L0 18
+Z10 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z11 !s108 1772056533.000000
+Z12 !s107 F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@leading_@one_16bit
+vLeading_One_32bit
+R4
+!i10b 1
+!s100 7O1=1@=3AVN>86_V1X0[>0
+II;<lSI9e356z@d_KkJk>L0
+R5
+R6
+R7
+R8
+R9
+L0 74
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@leading_@one_32bit
+vLeading_One_4bit
+R4
+!i10b 1
+!s100 z^`:_bm_4P6KVMFh4D5X43
+I`5D;J?>ObbR_0Zd`F3RNc1
+R5
+R6
+R7
+R8
+R9
+L0 4
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@leading_@one_4bit
+vLeading_Zero_16bit
+Z15 !s110 1772050448
+!i10b 1
+!s100 ^6LFzDEif]i3MFgoTVNVW0
+IiKbB7^7`?3]bGBN1T^?3T0
+R5
+R6
+Z16 w1772049573
+Z17 8F:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v
+Z18 FF:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v
+L0 36
+R10
+r1
+!s85 0
+31
+Z19 !s108 1772050448.000000
+Z20 !s107 F:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v|
+!i113 0
+R14
+R2
+n@leading_@zero_16bit
+vLeading_Zero_32bit
+R15
+!i10b 1
+!s100 jjE`FgUKe=iXDb1dD:;IM2
+ID4WThi;6=TR=Kflo2JYG`1
+R5
+R6
+R16
+R17
+R18
+L0 91
+R10
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R14
+R2
+n@leading_@zero_32bit
+vLeading_Zero_4bit
+R15
+!i10b 1
+!s100 Ch?:6AkISQR>[>UD7[>QT3
+Iob?a22KkDTm6Bb7?NC:V=0
+R5
+R6
+R16
+R17
+R18
+L0 23
+R10
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R14
+R2
+n@leading_@zero_4bit
+vPre_shifter
+Z22 !s110 1772056533
+!i10b 1
+!s100 1UV360zzAFVz_zV>Ch;7L3
+ImdV=E@h8dXW5KHV1O6XD>1
+R5
+R6
+w1771977504
+8F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v
+FF:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+!s107 F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v|
+!i113 0
+R14
+R2
+n@pre_shifter
+vsub_and_swap
+R22
+!i10b 1
+!s100 iW0]gibEElK2ff[e1GaG^0
+I>ZXnTV@XDIH:;zMJj<gZh3
+R5
+R6
+w1772048807
+8F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
+FF:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+!s107 F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v|
+!i113 0
+R14
+R2
+vtb_Leading_One_16bit
+Z23 !s110 1772055417
+!i10b 1
+!s100 o2`MgOi58dPG1fHYj26IX1
+IZ8ZQVRfWlIflPFU0WoSIG2
+R5
+R6
+w1772055399
+8F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_16bit_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/LOC_16bit_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+Z24 !s108 1772055417.000000
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_16bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_16bit_tb.v|
+!i113 0
+R14
+R2
+ntb_@leading_@one_16bit
+vtb_Leading_One_32bit
+R4
+!i10b 1
+!s100 6N`a^]U5Qn>8BnA6iS6P13
+I;mM:g;Ehj2k0iiY3gS;R41
+R5
+R6
+w1772056519
+8F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_32bit_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/LOC_32bit_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+!s108 1772056534.000000
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_32bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_32bit_tb.v|
+!i113 0
+R14
+R2
+ntb_@leading_@one_32bit
+vtb_Leading_One_4bit
+R23
+!i10b 1
+!s100 mHW61Ki:0AYCDBZ<^TIIC3
+I5bBI;:RH2zR2eNJGzMO`Y1
+R5
+R6
+w1772051886
+8F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_4bit_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/LOC_4bit_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+R24
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_4bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_4bit_tb.v|
+!i113 0
+R14
+R2
+ntb_@leading_@one_4bit
+vtb_Leading_Zero_16bit
+Z25 !s110 1772053279
+!i10b 1
+!s100 jkeKEM^C3Ff5fEQ`PHYK80
+I@j7_>Mn2XdmTX]WPz;AFb3
+R5
+R6
+w1772046862
+8F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_16bit_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/LZC_16bit_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+Z26 !s108 1772053279.000000
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_16bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_16bit_tb.v|
+!i113 0
+R14
+R2
+ntb_@leading_@zero_16bit
+vtb_Leading_Zero_32bit
+R25
+!i10b 1
+!s100 EgDEYoi<ag8K_J:;;8A740
+I?J5;lY4ROe9jk^MSBH;c^1
+R5
+R6
+w1772050560
+8F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_32bit_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/LZC_32bit_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+R26
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_32bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_32bit_tb.v|
+!i113 0
+R14
+R2
+ntb_@leading_@zero_32bit
+vtb_Pre_shifter
+R22
+!i10b 1
+!s100 Zb;=98UD_GzHOb8e2X8Fb1
+IXG:6KiSVQaE5Y0o_HbcDA1
+R5
+R6
+w1771892730
+8F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v
+FF:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+R11
+!s107 F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v|
+!i113 0
+R14
+R2
+ntb_@pre_shifter
+vUnpack
+R22
+!i10b 1
+!s100 T^N<EWaOK6^j6G@CQGRU_0
+IhXJJ^=E7<ohcoIfj4U5oQ2
+R5
+R6
+w1771962298
+8F:/IEEE_Arithmetic/VS_code/Project/Unpack.v
+FF:/IEEE_Arithmetic/VS_code/Project/Unpack.v
+L0 4
+R10
+r1
+!s85 0
+31
+R11
+!s107 F:/IEEE_Arithmetic/VS_code/Project/Unpack.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/Unpack.v|
+!i113 0
+R14
+R2
+n@unpack

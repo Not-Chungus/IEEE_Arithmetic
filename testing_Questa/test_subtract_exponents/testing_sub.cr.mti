@@ -1,0 +1,8 @@
+F:/IEEE_Arithmetic/VS_code/Project/testing/exp1_exp2_sub.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/testing/exp1_exp2_sub.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sub_and_swap
+
+Top level modules:
+	sub_and_swap
+
+} {} {}}

@@ -1,0 +1,609 @@
+
+*** Running vivado
+    with args -log Brent_Kung_64bit_Adder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Brent_Kung_64bit_Adder.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Brent_Kung_64bit_Adder.tcl -notrace
+Command: synth_design -top Brent_Kung_64bit_Adder -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26796 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 414.566 ; gain = 95.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Brent_Kung_64bit_Adder' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'i64_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:40]
+INFO: [Synth 8-6157] synthesizing module 'C_operation' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:350]
+INFO: [Synth 8-6155] done synthesizing module 'C_operation' (1#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:350]
+INFO: [Synth 8-6157] synthesizing module 'i32_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:105]
+INFO: [Synth 8-6157] synthesizing module 'i16_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:172]
+INFO: [Synth 8-6157] synthesizing module 'i8_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:241]
+INFO: [Synth 8-6157] synthesizing module 'i4_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:307]
+INFO: [Synth 8-6157] synthesizing module 'i2_input_net' [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:340]
+INFO: [Synth 8-6155] done synthesizing module 'i2_input_net' (2#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:340]
+INFO: [Synth 8-6155] done synthesizing module 'i4_input_net' (3#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:307]
+INFO: [Synth 8-6155] done synthesizing module 'i8_input_net' (4#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:241]
+INFO: [Synth 8-6155] done synthesizing module 'i16_input_net' (5#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:172]
+INFO: [Synth 8-6155] done synthesizing module 'i32_input_net' (6#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'i64_input_net' (7#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'Brent_Kung_64bit_Adder' (8#1) [F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 470.176 ; gain = 151.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 470.176 ; gain = 151.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 470.176 ; gain = 151.410
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc]
+WARNING: [Constraints 18-402] set_max_delay: 'Cout' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[0]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[10]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[11]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[12]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[13]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[14]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[15]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[16]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[17]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[18]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[19]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[1]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[20]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[21]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[22]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[23]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[24]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[25]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[26]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[27]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[28]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[29]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[2]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[30]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[31]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[32]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[33]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[34]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[35]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[36]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[37]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[38]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[39]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[3]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[40]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[41]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[42]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[43]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[44]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[45]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[46]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[47]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[48]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[49]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[4]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[50]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[51]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[52]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[53]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[54]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[55]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[56]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[57]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[58]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[59]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[5]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[60]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[61]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[62]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[63]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[6]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[7]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[8]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-402] set_max_delay: 'S[9]' is not a valid startpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid start point is a main or generated clock pin or port, a clock pin of a sequential cell, or a primary input or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[0]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[10]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[11]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[12]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[13]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[14]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[15]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[16]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[17]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[18]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[19]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[1]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[20]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[21]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[22]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[23]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[24]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[25]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[26]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[27]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[28]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[29]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[2]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[30]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[31]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[32]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[33]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[34]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[35]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[36]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[37]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[38]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[39]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[3]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[40]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[41]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[42]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[43]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[44]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[45]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[46]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[47]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[48]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[49]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[4]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[50]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[51]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[52]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[53]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[54]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[55]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[56]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[57]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[58]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[59]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[5]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[60]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[61]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[62]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[63]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[6]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[7]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[8]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'A[9]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[0]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[10]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[11]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[12]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[13]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[14]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[15]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[16]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[17]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[18]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[19]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[1]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[20]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[21]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[22]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[23]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[24]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[25]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[26]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[27]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[28]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[29]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[2]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[30]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[31]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[32]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[33]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[34]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[35]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[36]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[37]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[38]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[39]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[3]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[40]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+WARNING: [Constraints 18-401] set_max_delay: 'B[41]' is not a valid endpoint. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Resolution: A valid end point is a data pin of a sequential cell or a primary output or inout port. Please validate that all the objects returned by your query belong to this list.
+INFO: [Common 17-14] Message 'Constraints 18-401' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc:217]
+Finished Parsing XDC File [F:/IEEE_Arithmetic/Vivado/Arty-A7-35-Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 803.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 803.949 ; gain = 485.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 803.949 ; gain = 485.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 803.949 ; gain = 485.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 803.949 ; gain = 485.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Brent_Kung_64bit_Adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 803.949 ; gain = 485.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 805.594 ; gain = 486.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 805.816 ; gain = 487.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 811.852 ; gain = 493.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    33|
+|2     |LUT3 |    26|
+|3     |LUT4 |    45|
+|4     |LUT5 |    63|
+|5     |LUT6 |    43|
+|6     |IBUF |   129|
+|7     |OBUF |    65|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   404|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 812.977 ; gain = 494.211
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 813.031 ; gain = 160.492
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 813.031 ; gain = 494.266
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 129 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 165 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 828.453 ; gain = 522.371
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/IEEE_Arithmetic/Vivado/Task2_64_Prefix/Task2_project/Task2_project.runs/synth_1/Brent_Kung_64bit_Adder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Brent_Kung_64bit_Adder_utilization_synth.rpt -pb Brent_Kung_64bit_Adder_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 828.793 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 10 22:41:20 2026...

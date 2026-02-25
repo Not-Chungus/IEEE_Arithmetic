@@ -1,0 +1,29 @@
+F:/IEEE_Arithmetic/VS_code/Task1/Step1.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task1/Step1.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Carry_LookAhead_4bit
+
+Top level modules:
+	Carry_LookAhead_4bit
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Task1/CLA_64_tb.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task1/CLA_64_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module CLA_64bit_tb
+
+Top level modules:
+	CLA_64bit_tb
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Task1/CLA_16.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task1/CLA_16.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Carry_LookAhead_16bit
+
+Top level modules:
+	Carry_LookAhead_16bit
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Task1/CLA_64_top.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task1/CLA_64_top.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Carry_LookAhead_64bit
+
+Top level modules:
+	Carry_LookAhead_64bit
+
+} {} {}}

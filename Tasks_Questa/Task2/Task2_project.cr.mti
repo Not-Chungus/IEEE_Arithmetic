@@ -1,0 +1,22 @@
+F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder_tb.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Prefix_Adder_64bit_tb
+
+Top level modules:
+	Prefix_Adder_64bit_tb
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Task2/Prefix_64_Adder.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Brent_Kung_64bit_Adder
+-- Compiling module i64_input_net
+-- Compiling module i32_input_net
+-- Compiling module i16_input_net
+-- Compiling module i8_input_net
+-- Compiling module i4_input_net
+-- Compiling module i2_input_net
+-- Compiling module C_operation
+
+Top level modules:
+	Brent_Kung_64bit_Adder
+
+} {} {}}

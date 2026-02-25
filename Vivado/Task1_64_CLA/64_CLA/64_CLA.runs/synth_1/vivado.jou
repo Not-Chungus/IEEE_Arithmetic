@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb  9 21:25:33 2026
+# Process ID: 2596
+# Current directory: F:/IEEE_Arithmetic/Vivado/Task1_64_CLA/64_CLA/64_CLA.runs/synth_1
+# Command line: vivado.exe -log Carry_LookAhead_64bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Carry_LookAhead_64bit.tcl
+# Log file: F:/IEEE_Arithmetic/Vivado/Task1_64_CLA/64_CLA/64_CLA.runs/synth_1/Carry_LookAhead_64bit.vds
+# Journal file: F:/IEEE_Arithmetic/Vivado/Task1_64_CLA/64_CLA/64_CLA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Carry_LookAhead_64bit.tcl -notrace
