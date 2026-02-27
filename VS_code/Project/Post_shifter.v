@@ -64,9 +64,6 @@ module Post_shifter(
     end
 
 
-
-
-   
-
-
 endmodule
+
+//need to make new sticky post for the right shifting case

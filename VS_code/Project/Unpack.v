@@ -6,7 +6,7 @@ module Unpack(
 
 	output         signX,signY,   // sign: 1 bit
 	output  [7:0]  expX,expY,     // exponent: 8 bits (biased)
-	output  [24:0] S_X, S_Y       // significand: 25 bits (with implicit 1 | sign bit |)
+	output  [27:0] S_X, S_Y       // significand: 28 bits (with implicit 1 | sign bit | G R S)
 );
 
 	// sign: MSB
@@ -18,11 +18,11 @@ module Unpack(
 	assign expY  = Y[30:23];
 
 
-	// significand (25 bits): sign bit , implicit leading bit, and fraction bits
+	// significand (28 bits): sign bit , implicit leading bit, and fraction bits, G R S bits (intitialzed 0)
     // for normalized(exp != 0) the implicit leading bit is 1,
     // for denormals (exp == 0) leading bit is 0.
-	assign S_X = (expX == 8'd0) ? {2'b00, X[22:0]} : {2'b01, X[22:0]};
-	assign S_Y = (expY == 8'd0) ? {2'b00, Y[22:0]} : {2'b01, Y[22:0]};
+	assign S_X = (expX == 8'd0) ? {2'b00, X[22:0], 3'b000} : {2'b01, X[22:0], 3'b000};
+	assign S_Y = (expY == 8'd0) ? {2'b00, Y[22:0], 3'b000} : {2'b01, Y[22:0], 3'b000};
 
 endmodule
 
@@ -30,7 +30,7 @@ endmodule
 //To do:
 
 //Add the sign bit [DONE]
-//And the three rounding bits (G R P)
+//Add the three rounding bits (G R S) [DONE]
 
 
 // Test for special cases: zero, infinity, NaN

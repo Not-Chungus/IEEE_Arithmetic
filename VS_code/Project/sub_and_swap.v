@@ -1,10 +1,10 @@
 module sub_and_swap(
 
-    input   [24:0] S_X, S_Y,
+    input   [27:0] S_X, S_Y,
     input   [7:0]  expX, expY,
     input   Complement_Flag,
 
-    output reg [24:0] S_1, S_2,
+    output reg [27:0] S_1, S_2,
     output reg [7:0]  exp_out,
     output     [7:0]  exp_diff,
     output reg swapped_flag,
@@ -12,7 +12,7 @@ module sub_and_swap(
 );
 
     
-    reg [24:0] S_1_intermediate; 
+    reg [27:0] S_1_intermediate; 
 
     assign exp_diff = expX - expY; //SUBtractor
     assign N_Flag = (expX < expY) ;  //N Flag not from the SUBtractor, ran to issues with the MSB method, so we will directly compare expX and expY to get the N_Flag
@@ -50,7 +50,7 @@ endmodule
 
 
 //To do:
-// 1. add the sign bit [DONE] and the three rounding bits (G R P)
+// 1. add the sign bit [DONE] and the three rounding bits (G R S) [DONE]
 // 2. maybe need to add a flag (o/p) [DONE]
 // 3. maybe need to add (i/p) from CU [DONE]
 
