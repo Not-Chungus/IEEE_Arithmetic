@@ -1,4 +1,11 @@
-F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v
+F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_Pre_shifter
+
+Top level modules:
+	tb_Pre_shifter
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/extra_imp_modules/LOC_32bit.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module Leading_One_4bit
 -- Compiling module Leading_One_16bit
@@ -7,12 +14,12 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	Leading_One_32bit
 
-} {} {}} F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module tb_Pre_shifter
+-- Compiling module sub_and_swap
 
 Top level modules:
-	tb_Pre_shifter
+	sub_and_swap
 
 } {} {}} F:/IEEE_Arithmetic/VS_code/Project/Unpack.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Unpack.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
@@ -20,13 +27,6 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 
 Top level modules:
 	Unpack
-
-} {} {}} F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
-QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module sub_and_swap
-
-Top level modules:
-	sub_and_swap
 
 } {} {}} F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
