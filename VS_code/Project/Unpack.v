@@ -34,6 +34,7 @@ endmodule
 
 
 // Test for special cases: zero, infinity, NaN
+// Done by passing to Pack directly
 // 1. If NAN : bypass the adder and output NAN directly
 // 2. Address subnormals
 // 3. Address 0 operands

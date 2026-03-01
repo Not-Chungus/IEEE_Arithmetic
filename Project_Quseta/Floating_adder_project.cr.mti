@@ -1,1 +1,57 @@
+F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Round_sel_complement
 
+Top level modules:
+	Round_sel_complement
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Unpack.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Unpack.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Unpack
+
+Top level modules:
+	Unpack
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sub_and_swap
+
+Top level modules:
+	sub_and_swap
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Post_shifter.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Post_shifter
+
+Top level modules:
+	Post_shifter
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Pack.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Pack.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Pack
+
+Top level modules:
+	Pack
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Control_and_Sign.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Control_and_Sign.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Control_and_Sign
+
+Top level modules:
+	Control_and_Sign
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Pre_shifter
+
+Top level modules:
+	Pre_shifter
+
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/last_normalize.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/last_normalize.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module last_normalize
+
+Top level modules:
+	last_normalize
+
+} {} {}}
