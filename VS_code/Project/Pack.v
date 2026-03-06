@@ -16,7 +16,7 @@ module Pack(
     reg [7:0] exp_to_pack;
     reg [22:0] fract_to_pack;
 
-    //Sign [No operation]
+    //Sign [No operation to do]
     //Exponent==============================================================
     always @(*) begin
 
@@ -24,6 +24,8 @@ module Pack(
             exp_to_pack = 8'hFF;  //Infinity
         end else if(exp_underflowed) begin
             exp_to_pack = 8'h00;  //underflow
+        end else if (Sum_last[23:0] == 24'd0)begin //zero
+            exp_to_pack = 8'h00;
         end else begin
             exp_to_pack = exp_final[7:0]; //normal number
         end
@@ -45,9 +47,6 @@ module Pack(
     end
 
     assign Sum = {sign_out,exp_to_pack,fract_to_pack};
-
-
-
 
 
 

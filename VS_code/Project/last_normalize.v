@@ -11,7 +11,7 @@ module last_normalize(
       
         if (Sum_Rounded[24] == 1'b1) begin// overflow detected
 
-            Sum_last = 24'b0000_0000_0000_0000_0000_0000; //an only case no need for shift
+            Sum_last = 24'b1000_0000_0000_0000_0000_0000; //"manual shift"
             Rounding_has_overflowed = 1'b1;
 
         end else begin

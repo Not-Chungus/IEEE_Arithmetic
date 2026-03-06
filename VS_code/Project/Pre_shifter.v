@@ -37,7 +37,7 @@ module Pre_shifter(
         // If the shift is greater than the total width (28), the sticky bit must be 1.
 
         if (exp_diff_abs >= 8'd28) begin //exclude sign bit
-            lost_any = |(S_2[26:0]); // Reduction OR: 1 if any bit in S_2 is 1
+            lost_any = |(S_2[26:0]); // Reduction OR: 1 if any bit in S_2[26:0] is 1
         end else begin
             // Bitwise AND S_2 with the mask of "bits to be lost"
             lost_any = |(S_2[26:0] & lost_any_mask[26:0]); 
@@ -45,7 +45,7 @@ module Pre_shifter(
 
         sticky_bit = lost_any | S_2_shifted_intermediate[0]; // OR with the old sticky
 
-        // Apply Sign Extension AND the Sticky Bit in one concatenation
+        // Apply Sign Extension AND the Sticky Bit in one concatenation [No need?]
         if(S_2_sign_bit == 1'b1)  //sign extend using the mask 
             S_2_shifted = {(ones_mask | S_2_shifted_intermediate[27:1]),sticky_bit}; // OR with ones_mask to ensure sign extension
         else                      //zero extended by default, just sticky bit
@@ -61,6 +61,7 @@ endmodule
 //Add the sign bit and the three rounding bits (G R S) [DONE]
 //Implement Sticky logic [Done]  Don't OR in the sign (MSB) bit? [Implemented]
 
+//looks like i dont  need to sign extend S2 as it will never be complemented here lets leave it as is anyway
 //may need to clamp the shift amount for large values
 //does sticky bit get added like other bits?
 

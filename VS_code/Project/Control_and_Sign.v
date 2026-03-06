@@ -7,7 +7,7 @@ module Control_and_Sign(
     input Complement_Flag_2,    //from round and selective complement for sign logic
 
     input [7:0] exp_adjustment, //from post shifter  
-    input [7:0] exp_out,         //from sub and swap mux
+    input [7:0] exp_out,         //from sub and swap mux [already biased with 127]
     input Rounding_has_overflowed, //inc exp
 
 
@@ -82,7 +82,7 @@ module Control_and_Sign(
 
 //Exponential Handeling==============================================================
 
-    assign exp_final = exp_out + exp_adjustment + Rounding_has_overflowed + 127;
+    assign exp_final = exp_out + exp_adjustment + Rounding_has_overflowed;
 
     always @(*) begin
 
@@ -93,6 +93,9 @@ module Control_and_Sign(
         end else if(exp_final <= 9'd0) begin
         exp_overflowed = 1'b0;
         exp_underflowed = 1'b1;
+        end else begin
+        exp_overflowed = 1'b0;
+        exp_underflowed = 1'b0;
         end
 
     end
