@@ -10,37 +10,36 @@ z2
 cModel Technology
 Z0 dF:/IEEE_Digital/Installation/questasim64_10.6c/examples
 T_opt
-!s110 1773267654
-VZlL=S[Az_0@m9PoSFN=_i1
+Z1 !s110 1773272250
+V0]J?Z?]>K28iL1X=GMd_I0
 04 10 4 work tb_FPA_Top fast 0
-=1-d85ed3a67a6e-69b1eac4-2d7-8c38
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+=1-d85ed3a67a6e-69b1fcba-2ed-9614
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-Z3 OL;O;10.6c;65
-R0
+Z4 OL;O;10.6c;65
 T_opt1
 !s110 1772055420
 VT@8H<1L1ZPYX;NWP0Vbia2
 04 20 4 work tb_Leading_One_16bit fast 0
 =1-d85ed3a67a6e-699f6b7c-117-78b4
-R1
 R2
-n@_opt1
 R3
+n@_opt1
+R4
 R0
 T_opt2
 !s110 1772056545
 V72fSbBa_Y6e7gYQ`THG;a1
 04 20 4 work tb_Leading_One_32bit fast 0
 =1-d85ed3a67a6e-699f6fe1-a0-1c6c
-R1
 R2
-n@_opt2
 R3
+n@_opt2
+R4
 R0
 vControl_and_Sign
-Z4 !s110 1773267716
+R1
 !i10b 1
 !s100 KVU@Jc<BLNZWlRQ]jSaoL0
 I=8i4OzfZFNaBJ_E`gIDX13
@@ -54,15 +53,15 @@ Z7 OL;L;10.6c;65
 r1
 !s85 0
 31
-Z8 !s108 1773267716.000000
-!s107 ../VS_code/Project/extra_imp_modules/LZC_32bit.v|../VS_code/Project/extra_imp_modules/LOC_32bit.v|../VS_code/Project/Unpack.v|../VS_code/Project/sub_and_swap.v|../VS_code/Project/Round_sel_complement.v|../VS_code/Project/Pre_shifter.v|../VS_code/Project/Post_shifter.v|../VS_code/Project/Pack.v|../VS_code/Project/last_normalize.v|../VS_code/Project/FPA_Top.v|../VS_code/Project/Control_and_Sign.v|
-Z9 !s90 -reportprogress|300|../VS_code/Project/Control_and_Sign.v|../VS_code/Project/FPA_Top.v|../VS_code/Project/last_normalize.v|../VS_code/Project/Pack.v|../VS_code/Project/Post_shifter.v|../VS_code/Project/Pre_shifter.v|../VS_code/Project/Round_sel_complement.v|../VS_code/Project/sub_and_swap.v|../VS_code/Project/Unpack.v|../VS_code/Project/extra_imp_modules/LOC_32bit.v|../VS_code/Project/extra_imp_modules/LZC_32bit.v|
+Z8 !s108 1773272250.000000
+Z9 !s107 ../VS_code/Project/extra_imp_modules/LZC_32bit.v|../VS_code/Project/extra_imp_modules/LOC_32bit.v|../VS_code/Project/Unpack.v|../VS_code/Project/sub_and_swap.v|../VS_code/Project/Round_sel_complement.v|../VS_code/Project/Pre_shifter.v|../VS_code/Project/Post_shifter.v|../VS_code/Project/Pack.v|../VS_code/Project/last_normalize.v|../VS_code/Project/FPA_Top.v|../VS_code/Project/Control_and_Sign.v|
+Z10 !s90 -reportprogress|300|../VS_code/Project/Control_and_Sign.v|../VS_code/Project/FPA_Top.v|../VS_code/Project/last_normalize.v|../VS_code/Project/Pack.v|../VS_code/Project/Post_shifter.v|../VS_code/Project/Pre_shifter.v|../VS_code/Project/Round_sel_complement.v|../VS_code/Project/sub_and_swap.v|../VS_code/Project/Unpack.v|../VS_code/Project/extra_imp_modules/LOC_32bit.v|../VS_code/Project/extra_imp_modules/LZC_32bit.v|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 n@control_and_@sign
 vFPA_Top
-R4
+R1
 !i10b 1
 !s100 jcddBaF>hUDm1W;N_fRD=1
 I?^caYSC3z7QQ9lfneB0]M1
@@ -77,14 +76,14 @@ r1
 !s85 0
 31
 R8
-Z11 !s107 ../VS_code/Project/extra_imp_modules/LZC_32bit.v|../VS_code/Project/extra_imp_modules/LOC_32bit.v|../VS_code/Project/Unpack.v|../VS_code/Project/sub_and_swap.v|../VS_code/Project/Round_sel_complement.v|../VS_code/Project/Pre_shifter.v|../VS_code/Project/Post_shifter.v|../VS_code/Project/Pack.v|../VS_code/Project/last_normalize.v|../VS_code/Project/FPA_Top.v|../VS_code/Project/Control_and_Sign.v|
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@f@p@a_@top
 vlast_normalize
-R4
+R1
 !i10b 1
 !s100 Zgg]dP?zkOHITI]WJkD4o0
 I:PZcnV>8kZDofT6gGeQfa0
@@ -99,13 +98,13 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 vLeading_One_16bit
-R4
+R1
 !i10b 1
 !s100 AjBKgijE2Ljb9RNBf:XdY0
 IXPIPn;^OljN1Qj5afD@0P1
@@ -120,14 +119,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@one_16bit
 vLeading_One_32bit
-R4
+R1
 !i10b 1
 !s100 7O1=1@=3AVN>86_V1X0[>0
 IQnchiKnGM399eJ=`>25:m2
@@ -142,14 +141,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@one_32bit
 vLeading_One_4bit
-R4
+R1
 !i10b 1
 !s100 z^`:_bm_4P6KVMFh4D5X43
 IlZA4Z2KOPDa;ZgPn<c=PF0
@@ -164,14 +163,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@one_4bit
 vLeading_Zero_16bit
-R4
+R1
 !i10b 1
 !s100 G=`6zD;F1:z;ba8>nk6fh3
 IIlCkkLWZJHSCBKlDM:`X93
@@ -186,14 +185,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@zero_16bit
 vLeading_Zero_32bit
-R4
+R1
 !i10b 1
 !s100 ZN1X>RNInhS:zVk7<ffhb0
 IL:SoSWnngF0gWV;V2JZC;2
@@ -208,14 +207,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@zero_32bit
 vLeading_Zero_4bit
-R4
+R1
 !i10b 1
 !s100 GB@1kn55oSbFJ3JB?8`Ve1
 I]>Om8l`mfB05D1=aW[]gG1
@@ -230,14 +229,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@leading_@zero_4bit
 vPack
-R4
+R1
 !i10b 1
 !s100 NZ8C1B5gA;X]^0mlKTMad0
 IE9X4cUzCaX?oa>=o]b^0I3
@@ -252,20 +251,20 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@pack
 vPost_shifter
-R4
+R1
 !i10b 1
-!s100 HzKj;Sl@Q8>lKb:KbJ2C`2
-IQGViL_^n5Cz^0STB0UQHF0
+!s100 G>n76gaW9aF_oOeh4T]Qj1
+I7ENO:3IPY<nPfWch__7zZ3
 R5
 R6
-w1772757278
+w1773272240
 8../VS_code/Project/Post_shifter.v
 F../VS_code/Project/Post_shifter.v
 L0 2
@@ -274,14 +273,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@post_shifter
 vPre_shifter
-R4
+R1
 !i10b 1
 !s100 D@naS>U87TS`fDk^S[bED2
 IM2UGT5Z3WD6G5ECPPQKJG3
@@ -296,14 +295,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@pre_shifter
 vRound_sel_complement
-R4
+R1
 !i10b 1
 !s100 zc7^I2Naj9NEYA`SH8z=e3
 IoliWEXlJeS71=I23e`2E42
@@ -318,14 +317,14 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@round_sel_complement
 vsub_and_swap
-R4
+R1
 !i10b 1
 !s100 E_RH:_93fg81^Xm:9b:mX0
 Ib8JGQg46m^cfcUYN2fWC10
@@ -340,11 +339,11 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 vtb_FPA_Top
 !s110 1773212475
 !i10b 1
@@ -365,7 +364,7 @@ r1
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/Project_tb/tb_FPA_Top.v|
 !i113 0
 Z18 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R3
 ntb_@f@p@a_@top
 vtb_Leading_One_16bit
 Z19 !s110 1772055417
@@ -387,7 +386,7 @@ Z20 !s108 1772055417.000000
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_16bit_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@leading_@one_16bit
 vtb_Leading_One_32bit
 !s110 1772730239
@@ -409,7 +408,7 @@ r1
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_32bit_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@leading_@one_32bit
 vtb_Leading_One_4bit
 R19
@@ -431,7 +430,7 @@ R20
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LOC_4bit_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@leading_@one_4bit
 vtb_Leading_Zero_16bit
 Z21 !s110 1772053279
@@ -453,7 +452,7 @@ Z22 !s108 1772053279.000000
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_16bit_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@leading_@zero_16bit
 vtb_Leading_Zero_32bit
 R21
@@ -475,7 +474,7 @@ R22
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/LZC_32bit_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@leading_@zero_32bit
 vtb_Pre_shifter
 !s110 1772056533
@@ -497,10 +496,10 @@ r1
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/IEEE_Arithmetic/VS_code/Project/tb/pre_shifter_tb.v|
 !i113 0
 R18
-R2
+R3
 ntb_@pre_shifter
 vUnpack
-R4
+R1
 !i10b 1
 !s100 4S>Jd`YCL6lJF?:TdGWKC2
 Iml@U0LkkWQhKWYaF8;2GS0
@@ -515,9 +514,9 @@ r1
 !s85 0
 31
 R8
-R11
 R9
-!i113 0
 R10
-R2
+!i113 0
+R11
+R3
 n@unpack
