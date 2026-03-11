@@ -181,7 +181,7 @@ module tb_FPA_Top;
     end
 
     $fclose(fd);
-    $display("=== tb_FPA_Top done ===");
+    $display("============ tb_FPA_Top done ===============");
     $stop;
   end
 

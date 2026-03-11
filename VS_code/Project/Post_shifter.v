@@ -31,6 +31,7 @@ module Post_shifter(
 
 
     reg [27:0] S_normalized_intermediate;
+    //wire [27:0] mag = S_sum[27] ? ((~S_sum) + 28'd1) : S_sum;
 
 
     //Two seperate shifters
@@ -77,6 +78,6 @@ module Post_shifter(
 
 endmodule
 
-//problems with boundry [-1]
-//problem with 0 result? need for pack to handle later
+//problems with boundry [-1] [Solving with mag]
+//problem with 0 result [DONE]?
 
