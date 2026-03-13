@@ -5,12 +5,12 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	FPA_Top
 
-} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Unpack.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Unpack.v
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module Unpack
+-- Compiling module Round_sel_complement
 
 Top level modules:
-	Unpack
+	Round_sel_complement
 
 } {} {}} F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/sub_and_swap.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
@@ -19,12 +19,12 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	sub_and_swap
 
-} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Round_sel_complement.v
+} {} {}} F:/IEEE_Arithmetic/VS_code/Project/Unpack.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Unpack.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module Round_sel_complement
+-- Compiling module Unpack
 
 Top level modules:
-	Round_sel_complement
+	Unpack
 
 } {} {}} F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v {1 {vlog -work work -vopt -stats=none F:/IEEE_Arithmetic/VS_code/Project/Pre_shifter.v
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
