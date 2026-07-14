@@ -155,29 +155,6 @@ The work included:
 
 ## Highlighted Project - IEEE 754 Floating-Point Adder/Subtractor
 
-<p align="center">
-  <img
-    src="images/ieee754_floating_point_adder_architecture.png"
-    alt="IEEE 754 floating-point adder and subtractor architecture"
-    width="700"
-  >
-</p>
-
-<p align="center">
-  <em>
-    Figure 1: High-level IEEE 754 floating-point adder/subtractor architecture,
-    including unpacking, exponent comparison, significand alignment, arithmetic,
-    normalization, rounding, and final result packing.
-  </em>
-</p>
-
-The diagram above summarizes the complete project datapath. The two operands are
-first unpacked into their sign, exponent, and significand fields. Their exponents
-are compared so that the smaller significand can be aligned before the effective
-addition or subtraction. The arithmetic result is then normalized, rounded,
-normalized again when rounding changes its magnitude, and finally packed back
-into IEEE 754 format.
-
 The main project was an RTL implementation of a floating-point adder/subtractor based on the **IEEE 754 standard**.
 
 Unlike a basic integer adder, the project required the coordination of several arithmetic and control stages, including exponent comparison, significand alignment, effective addition or subtraction, normalization, rounding, exception handling, and final result packing.
