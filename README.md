@@ -158,6 +158,8 @@ The work included:
 The main project was an RTL implementation of a floating-point adder/subtractor based on the **IEEE 754 standard**.
 
 Unlike a basic integer adder, the project required the coordination of several arithmetic and control stages, including exponent comparison, significand alignment, effective addition or subtraction, normalization, rounding, exception handling, and final result packing.
+<img width="811" height="1062" alt="image" src="https://github.com/user-attachments/assets/35342b87-ae75-401c-91e1-2f177086ccc8" />
+
 
 ### Project Highlights
 
